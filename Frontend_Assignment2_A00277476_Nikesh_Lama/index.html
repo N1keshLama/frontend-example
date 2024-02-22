@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- Using Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+  
+  <!-- External CSS -->
+  <link rel="stylesheet" type="text/css" href="style.css">
+
+  <title>Nikesh's Portfolio</title>
+</head>
+<body>
+
+  <!-- Header Section -->
+  <header class="bg-primary text-white text-center py-3">
+    <h1>Nikesh's Portfolio</h1>
+    <p>Frontend Developer</p>
+  </header>
+
+  <!-- Main Content Section -->
+  <div class="container mt-4">
+    <!-- creating Row 1: About Me -->
+    <div class="row mb-4">
+      <div class="col-md-12">
+        <!-- Using Bootstrap Jumbotron -->
+        <div class="jumbotron text-center">
+          <!-- creating a Profile Photo section -->
+          <img src="images/profile.jpg" alt="Profile Photo" class="img-fluid rounded-circle mb-3" style="width: 150px; height: 150px;">
+          <!-- About Me Content -->
+          <h1 class="display-4">About Me</h1>
+          <p class="lead">Warm welcome to everyone! I'm Nikesh Lama, currently pursuing a Post Graduate on MAPD at Cambrian College of Arts and Technology. I'm from Nepal and have completed my bachelor's in Computing from Softwarica College of IT and E-commerce, affiliated with Coventry University (UK). I came to Canada in August 2023.</p>
+        </div>
+      </div>
+    </div>
+
+    <!-- creating Row 2: Education -->
+    <div class="row mb-4">
+      <div class="col-md-6">
+        <!-- Using Bootstrap Card -->
+        <div class="card shadow">
+          <div class="card-body">
+            <h5 class="card-title">Education</h5>
+            <p class="card-text">I have done my Bachelor's in Computing from Softwarica College of IT and E-commerce. I have completed my High school from Nobel Academy, kathmandu taking Mathematics as my major. I have completed my school level from Reliance English Secondary school. Recently i m enrolled at Cambrian college of Applied Arts and Technology studying MAPD. I was enrolled at Cambrian in Sept 2023. I came to Canada to complete my higher education but the harsh snow here is bit too overwhelming.</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-6">
+        <!-- Using Bootstrap Colors and Buttons -->
+        <div class="bg-info-card shadow">
+          <h5>My Education History</h5>
+          <ul>
+            <li>Cambrian College - "Post Graduate Certificate"</li>
+            <li>Softwarica College - "Bachelor's in Computing"</li>
+            <li>Nobel Academy - "Management Stream"</li>
+            <li>Reliance English Secondary School - "School Leaving Certificate"</li>
+          </ul>
+          <a href="https://drive.google.com/file/d/1AsVZrvrX8xdBwX_uuH3TfItEP4PB0XhL/view?usp=sharing" class="btn btn-success">View Transcript</a>
+        </div>
+      </div>
+    </div>
+    <!-- Creating Row 3: CV Button -->
+<div class="row">
+    <div class="col-md-12 text-center"> 
+      <!-- integrating link for the cv button -->
+      <a href="https://drive.google.com/file/d/1Td6aOkqtyeJaQ0jmiepPvectxUYVvC54/view" target="_blank" class="btn btn-primary" data-bs-toggle="tooltip" data-bs-placement="top" title="See my CV">
+        See my CV
+      </a>
+    </div>
+  </div>
+  
+  </div>
+
+  <!-- Creating Footer Section -->
+  <footer class="bg-dark text-white text-center py-2">
+    <p>&copy; Email: nikeshlama76@gmail.com</p>
+  </footer>
+
+  <!-- Using Bootstrap JS Bundle -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+
+  <!-- Activating Bootstrap Tooltip -->
+  <script>
+    var tooltipTriggerList = [].slice.call(document.querySelectorAll('[data-bs-toggle="tooltip"]'))
+    var tooltipList = tooltipTriggerList.map(function (tooltipTriggerEl) {
+      return new bootstrap.Tooltip(tooltipTriggerEl)
+    })
+  </script>
+
+</body>
+</html>
